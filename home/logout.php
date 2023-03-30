@@ -23,7 +23,7 @@
     <div class="_body">
         <div class="_box">
             <h2>
-                <strong>“KEY KEY KEYY”</strong>
+                <strong>“Ensure safety with our Keystroke dynamics based authentication”</strong>
                 <br>
                 <strong>— LK</strong>
             </h2>

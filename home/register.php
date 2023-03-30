@@ -36,7 +36,7 @@ $myfile = fopen("../data.txt","w");
 
   <style>
   .modal-header, h4, .close {
-      background-color: #2a2a2a;
+      background-color: #002B5B;
       color:white !important;
       text-align: center;
       font-size: 30px;
@@ -78,13 +78,13 @@ $myfile = fopen("../data.txt","w");
           <a href="index.php" style=" font-size:15pt;color: #e8e51c;">About
           </a></li>
           <li class="animated wow fadeInRight" data-wow-delay=".3s">
-          <a href="index.php" style=" font-size:15pt;color: #e8e51c;">Github
+          <a href="https://github.com/LEELAKARTHIKEYAN/authentication_using_keystrokes.git" style=" font-size:15pt;color: #e8e51c;">Github
           </a></li>
           <li class="animated wow fadeInRight" data-wow-delay=".4s">
           <a href="register.php" style=" font-size:15pt;color: #e8e51c;">Register
           </a></li>
           <li class="animated wow fadeInRight" data-wow-delay=".4s">
-          <a href="register.php" style=" font-size:15pt;color: #e8e51c;">Logout
+          <a href="logout.php" style=" font-size:15pt;color: #e8e51c;">Logout
           </a></li>
 
       
@@ -108,11 +108,11 @@ $myfile = fopen("../data.txt","w");
           <form role="form" action="../actions/checklogin.php" method="POST">
             <div class="form-group">
               <label for="usrname">Username</label>
-              <input type="text" class="form-control" id="username" placeholder="Enter username" align="center" autocomplete="off">
+              <input type="text" class="form-control" id="username" placeholder="Enter username" align="center" autocomplete="off" required>
             </div>
             <div class="form-group">
               <label for="psw"> Password</label>
-              <input type="text" class="form-control" id="password" placeholder="Enter password" autocomplete="off">
+              <input type="text" class="form-control" id="password" placeholder="Enter password" autocomplete="off" required>
             </div>
           
               <button type="submit" class="btn btn-success btn-block"></span> Login</button>

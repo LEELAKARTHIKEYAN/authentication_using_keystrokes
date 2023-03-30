@@ -138,18 +138,18 @@ for (var k = 0; k < 7; k++) {
 <p><b>Start typing your password six times in the input fields below:</b></p>
 <form action="validate.php" method="post"> 
 
-Enter a string 1:<br>
-  <input type="text" onkeyup="javascript:keypress('date1',1)" name="id1"><p id="date1">0</p><br>
-Enter a string 2:<br>
-  <input type="text" onkeyup="javascript:keypress('date2',2)"name="id2"><p id="date2">0</p><br>
-Enter a string 3:<br>
-  <input type="text" onkeyup="javascript:keypress('date3',3)" name="id3"><p id="date3">0</p><br>
-Enter a string 4:<br>
-  <input type="text" onkeyup="javascript:keypress('date4',4)" name="id4"><p id="date4">0</p><br>
-Enter a string 5:<br>
-  <input type="text" onkeyup="javascript:keypress('date5',5)" name="id5"><p id="date5">0</p><br>
-Enter a string 6:<br>
-  <input type="text" onkeyup="javascript:keypress('date6',6)" name="id6"><p id="date6">0</p><br>
+  Enter the password - 1:<br>
+  <input type="text" onkeyup="javascript:keypress('date1',1)" name="id1" autocomplete="off" required><p id="date1">0</p><br>
+  Enter the password - 2:<br>
+  <input type="text" onkeyup="javascript:keypress('date2',2)"name="id2" autocomplete="off" required><p id="date2">0</p><br>
+  Enter the password - 3:<br>
+  <input type="text" onkeyup="javascript:keypress('date3',3)" name="id3" autocomplete="off" required><p id="date3">0</p><br>
+  Enter the password - 4:<br>
+  <input type="text" onkeyup="javascript:keypress('date4',4)" name="id4" autocomplete="off" required><p id="date4">0</p><br>
+  Enter the password - 5:<br>
+  <input type="text" onkeyup="javascript:keypress('date5',5)" name="id5" autocomplete="off" required><p id="date5">0</p><br>
+  Enter the password - 6:<br>
+  <input type="text" onkeyup="javascript:keypress('date6',6)" name="id6" autocomplete="off" required><p id="date6">0</p><br>
 
   <button type="submit">Submit</button>
       </div>
