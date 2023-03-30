@@ -125,7 +125,7 @@ for (var k = 0; k < 7; k++) {
 					<a href="register.php" style=" font-size:15pt;color: #e8e51c;">Register
 					</a></li>
           <li class="animated wow fadeInRight" data-wow-delay=".4s">
-          <a href="logout.php" style=" font-size:15pt;color: #e8e51c;">Logout
+          <a href="index.php" style=" font-size:15pt;color: #e8e51c;">Logout
           </a></li>
 
 			
@@ -180,6 +180,10 @@ for (var k = 0; k < 7; k++) {
 			<span class="burger_icon">menu</span>
 		</div>
 	</header>
+
+  <img src="../img1.png" width="1519" height="600">
+
+
   <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
